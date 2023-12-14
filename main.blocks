@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="g#+WxKT+?*NnR;E4zvzg" x="20" y="20"><statement name="HANDLER"><block type="device_show_leds" id="-,:,R_iDm2F{J!t_s[,]"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . # . . .
+        `</field><next><block type="music_playable_play_default_bkg" id="3_i`7$1c3jF,WF44vS-#"><field name="playbackMode">music.PlaybackMode.InBackground</field><value name="toPlay"><shadow type="device_builtin_melody_playable" id="G-Q[_]m^awv^VG~Sfpy|"><field name="melody">Melodies.JumpUp</field></shadow></value></block></next></block></statement></block><block type="input_on_sound" id="kFG(B;;*NhW=.vD5X!N=" x="22" y="380"><field name="sound">DetectedSound.Loud</field><statement name="HANDLER"><block type="music_playable_play" id="P1CX.Vlc?RqMv?7}ERes"><field name="playbackMode">music.PlaybackMode.UntilDone</field><value name="toPlay"><shadow type="music_string_playable" id="w3doL{7hk+[w/[,dSth="><value name="melody"><shadow type="melody_editor" id="!{3^?SVyXe%YwGl)d9Eg"><field name="melody">"G B A G C5 B A B "</field></shadow></value><value name="bpm"><shadow type="math_number_minmax" id="y8]#RKUA3I8Jngoi|~:~"><mutation min="40" max="500" label="Bpm" precision="0"></mutation><field name="SLIDER">120</field></shadow></value></shadow></value><next><block type="device_show_leds" id="34R-3oQo6s6i(0r]EM$N"><field name="LEDS">`
+        . . # # . 
+        . . . . # 
+        . . . . # 
+        . . . # . 
+        . . # . .
+        `</field><next><block type="device_pause" id="i%Fd2wfAaANV^)J=M0=_"><value name="pause"><shadow type="timePicker" id="TSStiuWEvD_zO/*tUO`]"><field name="ms">100</field></shadow></value><next><block type="device_show_leds" id="A^I_oaREk0z,/CTQ[1{u"><field name="LEDS">`
+        . # # . . 
+        # . . . . 
+        # . . . . 
+        . # . . . 
+        . . # . .
+        `</field></block></next></block></next></block></next></block></statement></block></xml>
